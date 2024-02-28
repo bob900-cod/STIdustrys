@@ -1,7 +1,7 @@
 {
   "type": "GenericCrafter",
-  "name": "Ground Crusher",
-  "description": "creuse le sol",
+  "name": "drilling machine",
+  "description": "drill ground",
   "size": 3,
   "hasPower": true,
   "hasItems": true,

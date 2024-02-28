@@ -1,6 +1,6 @@
 { 
-"name": "Hyper Drill", 
-"description": "The magnum opus of drill technology. Incapable of mining sand, but mines other ores at massive rates, consuming cryofluid in the process.", 
+"name": "boost Drill", 
+"description": "better drill need power and cryofluid.", 
 "type": "Drill", 
 "blockedItem": "sand",
   "updateEffectChance": 0.1,
