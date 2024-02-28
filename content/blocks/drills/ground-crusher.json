@@ -1,0 +1,48 @@
+{
+  "type": "GenericCrafter",
+  "name": "Ground Crusher",
+  "description": "creuse le sol",
+  "size": 3,
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": false,
+  "loopSound": "crush",
+  "craftTime": 60,
+  "loopSoundVolume": 1.3,
+  "itemCapacity": 50,
+  "craftEffect": {
+    "type": "WaveEffect",
+    "colorFrom": "1B8C3C",
+    "colorTo": "1B8C3C",
+    "lifetime": 45,
+    "sizeFrom": 12,
+    "sizeTo": 0
+  },
+  "consumes": {
+    "power": 6
+  },
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 160
+    },
+    {
+      "item": "lead",
+      "amount": 100
+    },
+    {
+      "item": "graphite",
+      "amount": 60
+    },
+    {
+      "item": "silicon",
+      "amount": 40
+    }
+  ],
+  "category": "production",
+  "research": "ground-miller",
+  "outputItem": {
+    "item": "sand",
+    "amount": 12
+  }
+}

@@ -15,8 +15,8 @@
       "sizeFrom": 1,
       "sizeTo": 2,
       "interp": "pow2Out",
-      "colorFrom": "ff2d00",
-      "colorTo": "ff2d00"
+      "colorFrom": "FF5733",
+      "colorTo": "FF5733"
 },
 "hasPower": true, 
 "drawRim": false, 
@@ -41,6 +41,7 @@
   { "item": "copper", "amount": 130 },
   { "item": "silicon", "amount": 120 }, 
   { "item": "titanium", "amount": 100 }
+
 ],
 "category": "production",
   "research": "compact-laser-drill"
