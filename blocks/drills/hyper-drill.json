@@ -34,16 +34,13 @@
  "liquid": "cryofluid", 
 "amount": 0.09,
  "optional": false, 
-"booster": false,
+"booster": false
 }
  }, 
 "requirements": [
   { "item": "copper", "amount": 130 },
   { "item": "silicon", "amount": 120 }, 
-  { "item": "titanium", "amount": 100 },
-  { "item": "living-steel", "amount": 100 },
-  { "item": "living-steel-hard", "amount": 150 },
-  { "item": "plastanium", "amount": 75 }
+  { "item": "titanium", "amount": 100 }
 ],
 "category": "production",
   "research": "compact-laser-drill"
