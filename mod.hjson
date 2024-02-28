@@ -1,0 +1,8 @@
+name: "Stidustrys"
+displayName: "Stidustrys."
+author: Bim
+description: "Mod for Mindustrys"
+version: "0.1"
+minGameVersion: "146"
+dependencies: [ ]
+hidden: false
