@@ -1,0 +1,54 @@
+{
+  "type": "ConsumeGenerator",
+  "name": "nuclear reactor",
+  "description": "Uses uranium to make power.",
+  "size": 2,
+  "generateEffect": {
+    "type": "WaveEffect",
+    "particles": 8,
+    "length": 10,
+    "colorFrom": "4FFF33",
+    "colorTo": "4FFF33",
+    "lifetime": 45,
+    "sizeFrom": 12,
+    "sizeTo": 0
+  },
+  "hasPower": true,
+  "hasItems": true,
+  "itemDuration": 60,
+  "powerProduction": 12,
+  "consumes": {
+    "items": {
+      "items": [
+        {
+          "item": "copper",
+          "amount": 1
+        }
+      ]
+    }
+  },
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 200
+    },
+    {
+      "item": "lead",
+      "amount": 150
+    },
+    {
+      "item": "silicon",
+      "amount": 90
+    },
+    {
+      "item": "titanium",
+      "amount": 75
+    },
+    {
+      "item": "plastanium",
+      "amount": 50
+    }
+  ],
+  "category": "power",
+  "research": "slag-generator"
+}
