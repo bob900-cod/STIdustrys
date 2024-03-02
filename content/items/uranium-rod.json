@@ -1,0 +1,17 @@
+{
+  "name": "uranium rod",
+  "cost": 2.5,
+  "color": "22b400",
+  "flammability": 0.1,
+  "explosiveness": 0.2,
+  "radioactivity": 2,
+  "research": {
+    "parent": "mod-gate-resources",
+    "requirements": [
+      {
+        "item": "uranium",
+        "amount": 10
+      }
+    ]
+  }
+}

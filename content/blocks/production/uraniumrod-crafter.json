@@ -1,0 +1,47 @@
+{
+  "type": "GenericCrafter",
+  "name": "reactor",
+  "description": "create enriched uranium for nuclear",
+  "size": 2,
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": false,
+  "craftTime": 30,
+  "craftEffect": "smeltsmoke",
+  "updateEffect": "pulverizeRed",
+  "consumes": {
+    "power": 1.1,
+    "items": {
+      "items": [
+        {
+          "item": "uranium",
+          "amount": 1
+        }
+      ]
+    }
+  },
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 200
+    },
+    {
+      "item": "lead",
+      "amount": 150
+    },
+    {
+      "item": "titanium",
+      "amount": 60
+    },
+    {
+      "item": "thorium",
+      "amount": 50
+    }
+  ],
+  "category": "crafting",
+  "research": "big-plastanium-press",
+  "outputItem": {
+    "item": "uranium-rod",
+    "amount": 3
+  }
+}
