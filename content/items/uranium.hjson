@@ -1,0 +1,9 @@
+name: uranium
+description: use for create energi.
+details: 
+hardness: 5
+cost: 3
+color: 23FE00
+research:{
+  parent: ore-uranium
+}
