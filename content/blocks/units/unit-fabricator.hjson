@@ -1,0 +1,47 @@
+type: UnitFactory
+
+name: army factory
+description: Produces 2nd to 3rd generation tanks
+
+health: 1500
+size: 3
+
+consumes: {
+  power: 100
+}
+
+plans: [
+  {
+    unit: t-72
+    time: 128
+    requirements: [
+      copper/100
+      silicon/50
+      titanium/45
+    ]
+  }
+  {
+    unit: sukhoi-su-35
+    time: 200
+    requirements: [
+      silicon/125
+      plastanium/50
+      titanium/65
+    ]
+  }
+]
+
+requirements: [
+  silicon/450
+  titanium/500
+  lead/900
+]
+
+category: units
+research: {
+  parent: ground-factory
+  requirements: [
+    silicon/1000
+    titanium/700
+  ]
+}
