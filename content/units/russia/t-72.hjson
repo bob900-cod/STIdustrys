@@ -23,7 +23,7 @@ envDisabled: 0
 outlineColor: "2d2f39"
 weapons: [
  {
- name: abrams-weapon
+ name: t-72-weapon
  x: 0
  y: 0.7
     rotateSpeed: 1.8
